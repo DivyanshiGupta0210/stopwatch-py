@@ -16,7 +16,7 @@ class stopwatch(QWidget):
 
     def initUI(self):
         self.setWindowTitle("Stopwatch")
-        self.setWindowIcon(QIcon("Visual Studio Code\py\py practice\PyQt5\stopwatch.png"))
+        self.setWindowIcon(QIcon(" ") #lrelative path location of the icon
         self.setGeometry(370,150,600,200)  
 
         vbox = QVBoxLayout()
